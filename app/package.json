@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "An app for management",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Rodrigo André Rengifo Vela"
+}

@@ -1,0 +1,29 @@
+
+::-webkit-scrollbar{
+    width: 0px;
+  }
+
+.table{
+    margin: 0px;
+}
+
+.manageBox{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+} 
+
+.mainTable{
+    overflow: scroll;
+    flex-grow: 1;
+} 
+
+.form-inline{
+    padding: 1%;
+}
+.form-group{    
+    flex-grow: 1 !important; 
+}
+.form-control{
+    flex-grow: 1;
+}
