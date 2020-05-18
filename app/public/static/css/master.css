@@ -3,20 +3,32 @@
     width: 0px;
   }
 
-.table{
-    margin: 0px;
-}
+
+/* table  */
 
 .manageBox{
-    display: flex;
-    flex-direction: column;
     height: 90vh;
-} 
+}
 
-.mainTable{
-    overflow: scroll;
+.table-box{
     flex-grow: 1;
-} 
+    overflow: hidden;
+}
+
+.table{
+    margin-bottom: 0px;
+}
+
+.table-body-scroll{
+    flex-grow: 1;
+    overflow: scroll;
+}
+
+.table td, th{
+    width: 25%;
+}
+
+/* input user */
 
 .form-inline{
     padding: 1%;
