@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">   
-    <link rel="stylesheet" href="static/css/master.css">   
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/master.css">
     <title>Spartan Trade</title>
 </head>
+
 <body>
     <div class="container-fluid">
         <header>
@@ -27,35 +29,39 @@
                     </table>
                 </header>
                 <main class="table-body-scroll">
-                    <table class="table">
-                        <tbody>
+                    <table class="table table-hover">
+                        <tbody class="main-table">
                             <tr>
                                 <td>Rodrigo</td>
                                 <td>03/10/2002</td>
                                 <td>+55 92 99527-4298</td>
                                 <td>on</td>
-                            </tr>      
+                            </tr>
                         </tbody>
-                      </table>
-                </main>        
+                    </table>
+                </main>
             </main>
             <footer>
                 <form class="form-inline">
-                   <div class="form-group">
-                       <input type="text" class="form-control" placeholder="Nome">
-                   </div>
-                   <div class="form-group">
-                       <input type="text" class="form-control" placeholder="Data">
-                   </div>
-                   <div class="form-group">
-                       <input type="text" class="form-control" placeholder="Telefone">
-                   </div>
-                    <button type="submit" class=" form-control btn btn-primary">Submeter</button>   
+                    <div class="form-group">
+                        <input id="name" name="name" type="text" class="form-control" placeholder="Ex: João">
+                    </div>
+                    <div class="form-group">
+                        <input id="date" name="date" type="text" class="form-control" placeholder="Ex: dia/mês/ano">
+                    </div>
+                    <div class="form-group">
+                        <input id="cellphone" name="cellphone" type="text" class="form-control" placeholder="Ex: +99 (99) 99999-9999"> 
+                    </div>
+                    <button type="submit" class=" form-control btn btn-primary">Submeter</button>
                 </form>
             </footer>
         </main>
     </div>
-    <script src="static/js/bootstrap.min.js"></script>
-    <script src="../src/app.js"></script>
+ 
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/jquery.validate.js"></script>
+    <script src="static/js/jquery.mask.js"></script>
+    <script src="static/js/master.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
